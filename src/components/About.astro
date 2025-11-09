@@ -1,78 +1,80 @@
+---
+import "../styles/About.css";
+---
+
 <section
-        class="section about text-center"
-        aria-labelledby="about-label"
-        id="about"
+  class="section about text-center"
+  aria-labelledby="about-label"
+  id="about"
+>
+  <div class="container">
+    <div class="about-content">
+      <p class="label-2 section-subtitle" id="about-label">Nossa Jornada</p>
+
+      <h2 class="headline-1 section-title">Orgulho de Ser</h2>
+
+      <p class="section-text">
+        Nossa loja nasceu com o propósito de realizar o sonho dos amantes da
+        cultura geek do Brasil: oferecer acesso aos mesmos produtos incríveis
+        que a cultura geek no exterior oferece. Nossa missão é fazer com que
+        todos tenham acesso às coisas que realmente gostam, unindo arte com
+        paixão para tornar cada experiência única. Temos a intenção de mostrar
+        nosso orgulho de ser nerd, geek ou apenas um amante desse mundo e de
+        celebrar essa cultura! Venha explorar nosso universo e traga suas
+        aventuras à vida conosco!
+      </p>
+
+      <div class="contact-label">Contato</div>
+
+      <a
+        href="mailto:forjadodragaoadm@gmail.com"
+        class="body-1 contact-number hover-underline"
+        >forjadodragaoadm@gmail.com</a
       >
-        <div class="container">
-          <div class="about-content">
-            <p class="label-2 section-subtitle" id="about-label">
-              Nossa Jornada
-            </p>
 
-            <h2 class="headline-1 section-title">Orgulho de Ser</h2>
+      <a href="#" class="btn btn-primary">
+        <span class="text text-1">Saiba Mais</span>
 
-            <p class="section-text">
-              Nossa loja nasceu com o propósito de realizar o sonho dos amantes
-              da cultura geek do Brasil: oferecer acesso aos mesmos produtos
-              incríveis que a cultura geek no exterior oferece. Nossa missão é
-              fazer com que todos tenham acesso às coisas que realmente gostam,
-              unindo arte com paixão para tornar cada experiência única. Temos a
-              intenção de mostrar nosso orgulho de ser nerd, geek ou apenas um
-              amante desse mundo e de celebrar essa cultura! Venha explorar
-              nosso universo e traga suas aventuras à vida conosco!
-            </p>
+        <span class="text text-2" aria-hidden="true">Saiba Mais</span>
+      </a>
+    </div>
 
-            <div class="contact-label">Contato</div>
+    <figure class="about-banner">
+      <img
+        src="/assets/images/about-banner.jpg"
+        width="570"
+        height="570"
+        loading="lazy"
+        alt="about banner"
+        class="w-100"
+        data-parallax-item
+        data-parallax-speed="1"
+      />
 
-            <a
-              href="mailto:forjadodragaoadm@gmail.com"
-              class="body-1 contact-number hover-underline"
-              >forjadodragaoadm@gmail.com</a
-            >
+      <div
+        class="abs-img abs-img-1 has-before"
+        data-parallax-item
+        data-parallax-speed="1.75"
+      >
+        <img
+          src="/assets/images/about-abs-image.jpg"
+          width="285"
+          height="285"
+          loading="lazy"
+          alt=""
+          class="w-100"
+        />
+      </div>
 
-            <a href="#" class="btn btn-primary">
-              <span class="text text-1">Saiba Mais</span>
-
-              <span class="text text-2" aria-hidden="true">Saiba Mais</span>
-            </a>
-          </div>
-
-          <figure class="about-banner">
-            <img
-              src="/assets/images/about-banner.jpg"
-              width="570"
-              height="570"
-              loading="lazy"
-              alt="about banner"
-              class="w-100"
-              data-parallax-item
-              data-parallax-speed="1"
-            />
-
-            <div
-              class="abs-img abs-img-1 has-before"
-              data-parallax-item
-              data-parallax-speed="1.75"
-            >
-              <img
-                src="/assets/images/about-abs-image.jpg"
-                width="285"
-                height="285"
-                loading="lazy"
-                alt=""
-                class="w-100"
-              />
-            </div>
-
-            <div class="abs-img abs-img-2 has-before">
-              <img
-                src="/assets/images/badge-2.png"
-                width="133"
-                height="134"
-                loading="lazy"
-                alt=""
-              />
-            </div>
-          </figure>
-        </div>
-      </section>
+      <div class="abs-img abs-img-2 has-before">
+        <img
+          src="/assets/images/badge-2.png"
+          width="133"
+          height="134"
+          loading="lazy"
+          alt=""
+        />
+      </div>
+    </figure>
+  </div>
+</section>
